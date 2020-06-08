@@ -1,0 +1,74 @@
+<style>
+  .blue-text {
+    color:blue
+  }
+
+  h2 {font-family: monospace;
+  }
+
+  h3 {
+     text-decoration: underline black;
+      font-size: 20px
+    }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+
+  }
+
+  .thick-black-border {
+    border-color: black;
+    border-width: 15px;
+    border-style: solid;
+    border-radius: 25%
+  }
+
+ .silver-background {
+  background-color: silver;
+}
+
+</style>
+
+<div class="silver-background">
+
+
+<h2 class="blue-text">Philosophy is FUN AND LIFE IS MEANINGLESS (If you're a Naturalist)!</h2>
+<main>
+  <p class="blue-text">Click here to view more <a href="#">Angsty Philosophers</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-black-border" src="https://www.schoolofphilosophymidlands.org/wp-content/uploads/2013/10/Philosophers.jpg" alt="Lots of Philosophers" height="300" width="400"></a>
+
+  <h3 class="under"> What are numbers? </h3>
+  <label for="numbers"><input id="Abstract Platonic Entites" type="radio" name="Abstract Platonic Entites" value="Abstract Platonic Entites" > Abstract Platonic Entites</label>
+  <label for="numbers"><input id="fiction" type="radio" name="fiction" value="fiction" > Useful Fictions We Made Up</label>
+  <label for="numbers"><input id="mind" type="radio" name="mind" value="mind" > Thoughts of a Necessary being enbedded into existance?</label>
+
+  <p>Things Analytic Philosophers love:</p>
+  <ul>
+    <li>Logic</li>
+    <li>Hating on Kant</li>
+    <li>Being Angsty</li>
+    <li>David Hume</li>
+  </ul>
+  <p>Things Analytic Philosophers hate:</p>
+  <ol>
+    <li>Contential nonsense</li>
+    <li>Inconsistancy</li>
+    <li>"I feel that...."</li>
+    <li>Post Modernism</li>
+  </ol>
+  
+ 
+
+  <form action="/submit-cat-photo">
+    <label for="analytic"><input id="analytic" type="radio" name="analytic-continental" value="analytic" > Analytic</label>
+    <label for="continental"><input id="continental" type="radio" name="analytic-continental" value="continental"> Continental</label><br>
+    <label for="Phenomenological"><input id="Phenomenological" type="checkbox" name="personality" value="Phenomenological" > Phenomenological</label>
+    <label for="dramatic"><input id="dramatic" type="checkbox" name="personality" value="lazy"> Dramatic</label>
+    <label for="logical"><input id="logical" type="checkbox" name="personality" value="Logical"> Logical</label><br>
+    <input type="text" placeholder="Philosopher Photo url" required>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</main>
