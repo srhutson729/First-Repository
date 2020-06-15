@@ -13,7 +13,7 @@ state = { lat: null, errorMessage: ''};
       );
     }
 
-    render() {
+    renderContent() {
      if (this.state.errorMessage && !this.state.lat) {
          return <div>Error: {this.state.errorMessage}</div>;
         }
@@ -22,10 +22,18 @@ state = { lat: null, errorMessage: ''};
          return <SeasonDisplay  lat={this.state.lat} />
      }
     
-      return <Spinner />
+      return <Spinner message="Please accept location request" />
       }
+render () {
+  return (
+    <div className="border red">
+      {this.renderContent()}
+    </div>
+  );
 }
 
+
+}
 
  ReactDOM.render(<App />, document.querySelector('#root')) ;
 

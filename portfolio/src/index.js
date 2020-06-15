@@ -17,8 +17,11 @@ const App =() => {
     <a class="nav-link" href="#!">Resume</a>
   </li>
 </ul>
+  <p class="text-center">  
         <Button variant="danger">DANGER</Button>
+        </p>
 
+        
     </div>;
 
 };
