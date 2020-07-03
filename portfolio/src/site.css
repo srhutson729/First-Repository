@@ -1,0 +1,29 @@
+.profile-pic {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 25%
+}
+
+
+.card {
+    width: 30%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
