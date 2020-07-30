@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "npm run build && aws s3 rm s3://test.scotthutson.com/ --recursive && aws s3 cp ./build/ s3://test.scotthutson.com/ --recursive "
+    "deploy-test": "npm run build && aws s3 rm s3://test.scotthutson.com/ --recursive && aws s3 cp ./build/ s3://test.scotthutson.com/ --recursive ",
+    "deploy": "npm run build && (cd ./infra/website) && (../../terraform.exe init -backend-config=\"bucket=hutson-tfstate-prod\") && (../../terraform apply -var=\"environment=prod\") && (cd ../..)"
   },
   "eslintConfig": {
     "extends": "react-app"

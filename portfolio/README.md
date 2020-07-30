@@ -60,9 +60,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
 ### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
+```
+cd ./infra/storage 
+../../terraform.exe init -backend-config="bucket=hutson-tfstate-prod" 
+../../terraform apply -var="environment=prod"
+cd ../..
+cd ./infra/route53 
+../../terraform.exe init -backend-config="bucket=hutson-tfstate-prod" 
+../../terraform apply -var="environment=prod"
+cd ../..
+cd ./infra/website 
+../../terraform.exe init -backend-config="bucket=hutson-tfstate-prod" 
+../../terraform apply -var="environment=prod"
+cd ../..
+```
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
