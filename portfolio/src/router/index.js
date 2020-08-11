@@ -12,4 +12,12 @@ export default [
     path: "/about",
     component: About,
   },
+  {
+    path: "/projects",
+    component: Projects,
+  },
+  {
+    path: "/resume",
+    component: Resume,
+  },
 ];

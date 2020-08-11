@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, NavLink } from "react-router-dom";
 
 import routes from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -10,17 +10,19 @@ import './App.css'
 
 export default () => {
   return <div class='container-fluid'>
+  <NavLink class="nav-link" to="/">
   <h1 class='text-center'>Scott Hutson</h1>
-  <h2 class='text-center '>Welcome!</h2>
+  </NavLink>
+
   <ul class="nav nav-pills nav-fill">
      <li class="nav-item">
-        <a class="nav-link" href="#!">About Me</a>
+        <NavLink class="nav-link" to="/about">About Me</NavLink>
      </li>
      <li class="nav-item">
-        <a class="nav-link" href="#!">Projects</a>
+     <NavLink class="nav-link" to="/projects">Projects</NavLink>
      </li>
      <li class="nav-item">
-        <a class="nav-link" href="#!">Resume</a>
+     <NavLink class="nav-link" to="/resume">Resume</NavLink>
      </li>
   </ul>
 
@@ -53,17 +55,12 @@ export default () => {
            <div class="col-md-3 mb-md-0 mb-3">
            <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
-        <a class="btn-floating btn-fb mx-1">
+        <a href={"https://www.facebook.com/srhutson729"} class="btn-floating btn-fb mx-1">
           <i class="fa fa-facebook-square fa-2x"> </i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1">
-          <i class="fa fa-twitter-square fa-2x"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-ghub mx-1">
+        <a href={"https://github.com/srhutson729/First-Repository"} class="btn-floating btn-ghub mx-1">
           <i class="fa fa-github-square fa-2x"> </i>
         </a>
       </li>
@@ -73,7 +70,7 @@ export default () => {
         </a>
       </li>
        <li class="list-inline-item">
-        <a class="btn-floating btn-linkedin mx-1">
+        <a href={"https://www.linkedin.com/in/srhutson729"} class="btn-floating btn-linkedin mx-1">
           <i class="fa fa-linkedin-square fa-2x"> </i>
         </a>
       </li>

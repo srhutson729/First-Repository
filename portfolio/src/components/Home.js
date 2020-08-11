@@ -1,8 +1,10 @@
 import React from 'react'
 
+
 export default () => {
   return <>
   <img class="profile-pic" src="mug.jpg" alt="Card image" />
+  <h2 class='text-center '>Feel free to take a look at my active projects!</h2>
   <div class="card-deck">
      <div class="card">
         <div class="card-body">
