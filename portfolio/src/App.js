@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button'
 import './site.css'
 import './App.css'
+import '../node_modules/animate.css/animate.min.css'
 
 export default () => {
   return <div class='container-fluid'>
