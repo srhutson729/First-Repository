@@ -7,25 +7,9 @@ import JSHeadshot from "./JSHeadshot.png"
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <img src={JSHeadshot} width={500} height={400} mode='fit' />
-      <p>About Me</p>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
-      </div>
+      <img src={JSHeadshot} width={450} height={350} mode='fit' />
+      <p style={{color:'black'}}>Bio</p>
+      <h2 style={{color:'black'}}>Insert short bio here</h2>
     </div>
   );
 }

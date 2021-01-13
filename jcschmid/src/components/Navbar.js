@@ -36,9 +36,6 @@ function NavBar() {
      </div>  
      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
      <li className='nav-item'>
-              <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </Link>
             </li>
          <li className='nav-item'>
              <Link to="/about" className='nav-links' onClick={closeMobileMenu}>
@@ -76,9 +73,6 @@ function NavBar() {
              </Link>
             </li>
             <li className='nav-item'>
-             <Link to="/subscribe" className='nav-links-mobile' onClick={closeMobileMenu}>
-                 Subscribe
-             </Link>
          </li>
      </ul>
      {button && <Button buttsonStyle='btn--outline'>SUBSCRIBE</Button>}

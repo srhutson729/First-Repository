@@ -2,44 +2,44 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
+
 function Cards() {
   return (
     <div className='cards'>
-      <h1>About Me</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/pen.jpg'
+              text='Research interests and current projects'
+              label='Research'
+              path='/research'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='images/Videos.jpg'
+              text='Check out my channel The Majesty of Reason as well as Interviews and Debates'
+              label='Videos'
+              path='/videos'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/blog.jpg'
+              text='Check out my blog here'
+              label='Blog'
+              path='/blog'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/bookcover2.jpg'
+              text='The Majesty of Reason: A Short Guide to Critical Thinking in Philosophy'
+              label='Books'
+              path='/book'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/Capture.jpg'
+              text='Join my Patreon and help me create new content!'
+              label='Patreon'
+              path='/patreon'
             />
           </ul>
         </div>
