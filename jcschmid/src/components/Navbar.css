@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: url('large.jpg') center/cover no-repeat;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -50,7 +50,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: white;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -93,7 +93,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #484240;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -108,7 +108,7 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
+    background-color: #484240;
     color: #242424;
     border-radius: 0;
   }
@@ -131,7 +131,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: #484240;
     font-size: 2rem;
   }
 
@@ -151,8 +151,8 @@
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
+    background: #484240;
+    color: #c6b9b3;
     transition: 250ms;
   }
 }
