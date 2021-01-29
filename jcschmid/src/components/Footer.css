@@ -1,5 +1,5 @@
 .footer-container {
-  background: url('large.jpg') center;
+  background: url('../images/large.jpg') center;
   background-size: auto;
   padding: 4rem 0 2rem 0;
   display: flex;
