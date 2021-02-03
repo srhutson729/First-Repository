@@ -1,10 +1,12 @@
+import headShotImage from '../images/Headshotweb.jpg'
+
 export default [
 	{
 		title: 'Welcome!',
 		description:
 			'My name is Joe Schmid, I am a Philosopher with two academic publications as well as a student a Purdue University',
 		button: 'More About Me',
-		image: 'Headshotwebsmall.jpg',
+		image: headShotImage,
 	},
 	{
 		title: 'Tortor Dapibus',
