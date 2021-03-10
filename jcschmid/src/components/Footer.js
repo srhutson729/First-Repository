@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-       <h1>What altar of refuge can a man find when he commits treason against the majesty of reason?</h1>
-       <h2>Baruch Spinoza</h2>
+       <h2>What altar of refuge can a man find when he commits treason against the majesty of reason?</h2>
+       <h3>Baruch Spinoza</h3>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>

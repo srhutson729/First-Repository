@@ -14,7 +14,7 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
 
  return (
      <Link 
-     to={{ pathname:'https://www.youtube.com/c/MajestyofReason/' }} 
+     to={{ pathname:'https://www.patreon.com/majestyofreason#:~:text=Majesty%20of%20Reason%20aims%20to,rigorous%20philosophical%20reasoning%20and%20evidence.' }} 
      target='_blank' 
      className='btn-mobile'>
          <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}

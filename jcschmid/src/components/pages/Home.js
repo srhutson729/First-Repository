@@ -4,6 +4,7 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import Autoplay from '../Autoplay';
 
+
 function Home() {
   return (
     <>

@@ -16,30 +16,16 @@ function Cards() {
               path='/research'
             />
             <CardItem
-              src='images/Videos.jpg'
+              src='images/joevideos.jpg'
               text='Check out my channel The Majesty of Reason as well as Interviews and Debates'
               label='Videos'
               path='/videos'
             />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/blog.jpg'
+             <CardItem
+              src='images/blog2.jpg'
               text='Check out my blog here'
               label='Blog'
               path='/blog'
-            />
-            <CardItem
-              src='images/bookcover2.jpg'
-              text='The Majesty of Reason: A Short Guide to Critical Thinking in Philosophy'
-              label='Books'
-              path='/book'
-            />
-            <CardItem
-              src='images/Capture.jpg'
-              text='Join my Patreon and help me create new content!'
-              label='Patreon'
-              path='/patreon'
             />
           </ul>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import dndApi from '../dndApi'
+import dndApi from '../dndApi/dndApi'
 import Select from 'react-select'
 
 

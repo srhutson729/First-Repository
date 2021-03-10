@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Document, Page } from 'react-pdf';
 
-import Resume from '../pdf/Resume.pdf';
+import resume from '../pdf/resume.pdf';
 
 export default function Test() {
   return (
-    <Document file={Resume}>
+    <Document file={resume}>
           <div class="d-flex justify-content-center">
       <Page pageNumber={1} />
        </div>
@@ -15,6 +15,8 @@ export default function Test() {
      </Document>
 
      
-     );
-}
+     );}
+
+
+
 

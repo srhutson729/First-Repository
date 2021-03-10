@@ -1,7 +1,7 @@
-import About from "../components/About";
-import Home from "../components/Home";
-import Projects from "../components/Projects";
-import Resume from "../components/Resume";
+import About from "../components/pages/About";
+import Home from "../components/pages/Home";
+import Projects from "../components/pages/Projects";
+import Resume from "../components/pages/Resume";
 
 export default [
   {

@@ -52,30 +52,20 @@ function NavBar() {
                  Videos
              </Link>
              </li>
-            <li className='nav-item'>
-             <Link to="/book" className='nav-links' onClick={closeMobileMenu}>
-                 Books
-             </Link>
-                </li>
                 <li className='nav-item'>
              <Link to="/blog" className='nav-links' onClick={closeMobileMenu}>
                  Blog
              </Link>
                 </li>
              <li className='nav-item'>
-             <Link to="/patreon" className='nav-links' onClick={closeMobileMenu}>
-                 Patreon
-             </Link>
-                </li>
-             <li className='nav-item'>
              <Link to="/contact" className='nav-links' onClick={closeMobileMenu}>
-                 Contact
+                 Q & A
              </Link>
             </li>
             <li className='nav-item'>
          </li>
      </ul>
-     {button && <Button buttsonStyle='btn--outline'>SUBSCRIBE</Button>}
+     {button && <Button buttsonStyle='btn--outline'>Join My Patreon</Button>}
     </div>
   </nav>
   </>

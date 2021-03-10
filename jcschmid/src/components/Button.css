@@ -19,14 +19,14 @@
 .btn--outline {
   background-color: transparent;
   color: #fff;
-  padding: 8px 20px;
+  padding: 4px 10px;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
 }
 
 .btn--medium {
-  padding: 8px 20px;
-  font-size: 18px;
+  padding: 4px 10px;
+  font-size: 14px;
 }
 
 .btn--large {

@@ -1,29 +1,41 @@
+import headShotImage from '../images/Headshotwebcolor.jpg';
+import mainImage from '../images/Welcome.jpg';
+import bookBanner from '../images/bookbanner.jpg';
+
 export default [
 	{
-		title: 'Welcome!',
+		title: 'Welcome',
 		description:
-			'My name is Joe Schmid, I am a Philosopher with two academic publications as well as a student a Purdue University',
+		'',
+		image: mainImage,
+		
+	},
+	{
+		title: 'About Me',
+		description:
+			'My name is Joe Schmid, I am a published Philosopher as well as a student at Purdue University',
 		button: 'More About Me',
-		image: 'Headshotwebsmall.jpg',
+		image: headShotImage,
+		link: '../pages/About.js',
 	},
 	{
-		title: 'Tortor Dapibus',
+		title: 'Research',
 		description:
-			'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.',
-		button: 'Discover',
-		image: '.',
+			'My CV, academic papers and other project',
+		button: 'Read More',
+		image: bookBanner,
 	},
 	{
-		title: 'Phasellus volutpat metus',
+		title: 'Videos',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
-		button: 'Buy now',
-		image: '.',
+			'Check out my content on The Majesty of Reason as well as other interviews and debates.',
+		button: 'View Here',
+		image: './images/MRbanner.jpg',
 	},
 	{
-		title: 'Ultricies Vulputate Mollis',
+		title: 'Blog',
 		description:
-			'Aenean eu leo quam. Pellentesque ornare sem lacinia  nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+			'You can read my blog here',
 		button: 'Read More',
 		image: '.',
 
