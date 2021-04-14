@@ -23,11 +23,6 @@ function Footer() {
        <i class="fa fa-github-square fa-2x"> </i>
      </a>
    </li>
-   <li class="list-inline-item">
-     <a class="btn-floating btn-google mx-1">
-       <i class="fa fa-google fa-2x"> </i>
-     </a>
-   </li>
     <li class="list-inline-item">
      <a href={"https://www.linkedin.com/in/srhutson729"} class="btn-floating btn-linkedin mx-1">
        <i class="fa fa-linkedin-square fa-2x"> </i>

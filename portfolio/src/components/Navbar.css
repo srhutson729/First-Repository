@@ -1,8 +1,7 @@
 .navbar {
     background: black;
-    height: 50px;
+    height: 75px;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
@@ -76,6 +75,7 @@
   .menu-icon {
     display: none;
     align-items: center;
+    color: whitesmoke;
   }
   
   @media screen and (max-width: 960px) {
@@ -111,8 +111,8 @@
     }
   
     .nav-links:hover {
-      background-color: black ;
-      color: #242424;
+      background-color: whitesmoke ;
+      color: gray;
       border-radius: 0;
     }
   
@@ -131,16 +131,6 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-    }
-  
-    .fa-times {
-      color: black;
-      font-size: 2rem;
-    }
-
-    .fa-bars {
-      color: black;
-      font-size: 2rem;
     }
   
     .nav-links-mobile {
