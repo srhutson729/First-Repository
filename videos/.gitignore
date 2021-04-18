@@ -21,19 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-node_modules
-
-# build artifacts
-*.terraform*
-*.build*
-*.zip
-*.txt
-*.zip*
-__pycache__
-node_modules
-/dist
-*.tfstate
-*.tfstate.backup
-.terraform.tfstate.lock.info
-.terraform/

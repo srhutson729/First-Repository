@@ -1,7 +1,9 @@
 import React from "react";
+import 'bootstrap'
+import { Link } from "react-router-dom";
 
 
-const { Link } = window.ReactRouterDOM
+
 const img = {
   carrot: './img/carrot.svg',
   lock: './img/lock.svg',
